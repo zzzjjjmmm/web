@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top{
+	width:1862px;
+	height: 70px;
+	text-align: center;
+}
+.top img{
+	float: left;
+	margin-left: 200px;
+}
+.top ul{
+	list-style-type: none;
+    margin-left: 600px;
+}
+.top li{
+	float:left;
+	width: 200px;
+    line-height: 65px;
+}
+.top li:hover{
+   border-bottom: 3px solid rgba(168,62,64,1.00);
+	font-weight: bold;
+}
+.top a{
+	text-decoration: none;
+	font-size: 25px;
+    color: #000000;
+}
+.middle{
+	width: 1862px;
+	height: 480px;
+	background:url(../Images/l1.png) no-repeat;
+}
+.center{
+	width: 1862px;
+	height: 930px;
+	background-color: rgb(252,245,239);
+}
+.center_l{
+	width: 227px;
+	height: 480px;
+	background-color: rgb(153,114,72);
+	float: left;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+.center_l span{
+	font-size: 25px;
+	color: white;
+	font-family: 华文新魏;
+}
+.center_l p{
+	font-size: 17px;
+	line-height: 7px;
+	color: white;
+}
+.center_l1{
+	width: 227px;
+	height: 480px;
+	background-color: rgb(223,69,41);
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.center_l1 span{
+	font-size: 25px;
+	font-family: 华文新魏;
+	color: white;
+}
+.center_l1 p{
+	font-size: 17px;
+	line-height: 7px;
+	color: white;
+}
+.center_ru{
+	width: 230px;
+	height: 230px;
+	float: left;
+	background-color: rgb(170,198,61);
+	margin-top: 50px;
+	margin-left: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+.center_ru h1{
+	width: 40px;
+	font-size: 40px;
+	font-family: "宋体";
+	color: white;
+	word-wrap: break-word;
+	margin: 20px 95px;
+}
+.center_rd{
+	width: 230px;
+	height: 230px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color:#FFFFFF;
+	float: left;
+	text-align: center;
+	
+}
+.center_rd span{
+	color:rgb(248,123,30);
+}
+.center_rd img{
+	margin: 20px 50px;
+}
+.center_rd h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.center_rd2{
+	width: 230px;
+	height: 230px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color:rgb(8,94,129);
+	color: white;
+	float: left;
+	text-align: center;
+}
+.center_d{
+	width: 950px;
+	height: 350px;
+	float: left;
+	background-color:#FFFFFF;
+	margin-top: 20px;
+	margin-left: 220px;
+}
+.center_dl{
+	width: 342px;
+	height: 350px;
+	background-color:rgb(223,69,41);
+	float: left;
+	letter-spacing: 2px;
+	margin-right: 15px;
+}
+.center_dl p{
+	font-size: 20px;
+	color: white;
+	margin-top: 6px;
+	text-indent: 1em;	
+}
+.a1{
+	float: right;
+    margin-right: 40px;
+	margin-top: 30px;
+	color:#000000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.center_dr{
+	width: 480px;
+	height: 350px;
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.p2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.p3{
+	font-size: 19px;
+	text-indent: 1em;
+}
+.new_t{
+	width: 480px;
+	height: 50px;
+	float: left;
+	background-color:rgb(170,198,61);
+	color: white;
+	text-indent: 2em;
+}
+.new1{
+	width: 480px;
+	height: 300px;
+	background-color: white;
+	float:left;
+	
+}
+.new1 ul{
+	margin: 0px;
+	list-style: url(../Images/mark.png);
+	padding: 0px 0px 0px 26px;
+}
+.new1 li{
+	width: 454px;
+    height: 44px;
+	line-height: 50px;
+	margin: 0px;
+	border-bottom: 2px dashed rgb(204,204,204);
+	float: left;
+}
+.new1 a{
+	text-decoration: none;
+	font-size: 16px;
+    color: #000000;
+}
+.new1 a:hover{
+    text-decoration: underline;
+	text-decoration-color: #000000;
+}
+.new1 span{
+	float:right;
+	margin-right: 5px;
+	font-size: 14px;
+}
+.bottom{
+	width: 1862px;
+	height: 100px;
+	background-color:#000000;
+}
+.bottom1{
+	width: 750px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	margin-left: 200px;
+	color: white;
+	font-size: 18px;
+}
+.bottom1 img{
+    vertical-align: middle;
+}
+.bottom2{
+	width: 300px;
+	height: 100px;
+	float: right;
+	margin-right: 180px;
+	text-align: center;
+}
+.bottom2 img{
+	float: left;
+}
+.bottom2 span{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	line-height: 50px;
+}
+/*下面是第二个网页的css文件*/
+
+.middle2{
+	width: 1862px;
+	height:278px;
+	background: url(../Images/up.png) no-repeat;
+}
+.main{
+	width: 1862px;
+	height: 1100px;
+	background-color: rgb(252,245,239);
+}
+.main_cen{
+	width: 70%;
+	height: 1100px;
+	float: left;
+	margin-left: 15%;
+}
+.main_cenl{
+	width: 25%;
+	height: 1100px;
+	background-color: rgb(246,246,246);
+	float: left;
+}
+.main_cenl1{
+	width: 100%;
+	height: 250px;
+	background-color:rgb(223,70,39);
+	float: left;
+}
+.span1{
+	font-size: 33px;
+	color: white;
+	position: relative;
+	display: block;
+	top: 140px;
+	left: 30px;
+	
+}
+.span2{
+	font-size: 24px;
+	color: white;
+	position: relative;
+	display: block;
+	top: 130px;
+	left: 30px;
+}
+.main_cenr{
+	width:75%;
+	height: 1100px;
+	background-color: white;
+	float: right;
+	
+}
+.main_cenr1{
+	width: 100%;
+	height: 250px;
+	background-color:#FFFFFF;
+	float: left;
+	border-bottom: 2px solid rgb(221,221,221);
+}
+.rightp{
+    margin-top: 150px;
+	font-size: 30px;
+	font-weight: bold;
+	text-indent: 1em;
+	color:rgb(223,70,39);
+}
+.main_cenr2{
+	width: 100%;
+	height: 848px;
+	float: left;	
+	border-left: 1px solid rgb(221,221,221);
+}
+.main_cenr2 p{
+	text-indent: 2em;
+	line-height: 25px;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: rgb(102,102,102);
+}
+/*下面是第三个网页的css*/
+.middle3{
+	width: 1862px;
+	height: 281px;
+	background: url(../Images/middle3.png) no-repeat;
+}
+.food{
+	width: 250px;
+	height: 262px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+/*第四个*/
+.middle4{
+	width: 1862px;
+	height: 278px;
+	background-color: #8C5152;
+	background:url(../Images/up.png) no-repeat;
+}
+.map{
+	margin-left: 60px;
+	margin-top: 80px;
+}
+.benu{
+	width: 100%;
+	height: 305px;
+	margin-top: 50px;
+	float: left;
+}
+.benu ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.benu li{
+	height: 38px;
+	margin: 0px;
+	line-height: 38px;
+}
+.benu li:hover{
+	background-color: rgb(223,70,39);
+}
+.benu a{
+	text-decoration: none;
+	color: #000000;
+}
